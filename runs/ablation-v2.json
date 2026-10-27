@@ -1,0 +1,25 @@
+{
+  "results": {
+    "F1 LR  pointwise": {
+      "val": 89.85,
+      "hard": 66.25,
+      "n_hard": 240
+    },
+    "F2 LR  group-softmax": {
+      "val": 89.6,
+      "hard": 69.17,
+      "n_hard": 240
+    },
+    "F3 MLP group-softmax": {
+      "val": 91.73,
+      "hard": 73.75,
+      "n_hard": 240
+    },
+    "F4 MLP + hard x2": {
+      "val": 91.6,
+      "hard": 73.33,
+      "n_hard": 240
+    }
+  },
+  "best": "F3 MLP group-softmax"
+}
